@@ -1,0 +1,312 @@
+/* CSS for index page */
+
+body
+{
+	padding: 50px 0px 5px;
+}
+
+td
+{
+	vertical-align: middle;
+}
+
+#companyName
+{
+	margin-left: 10px;
+	/*margin-right: 10px;*/
+	font-family: Microsoft YaHei;
+}
+
+#mainNav li a
+{
+	font-family: Microsoft YaHei;
+}
+
+#account
+{
+	margin-right: 1em;
+	font-family: Microsoft YaHei;
+}
+
+#exit
+{
+	cursor: pointer;
+}
+
+#mainContent
+{
+	margin: 0;
+}
+
+#billList
+{
+	height: 100%;
+	border-right: 1px solid #CCC;
+	padding: 8px 2em;
+	font-family: Microsoft YaHei;
+	overflow: auto;
+}
+
+#toolbar
+{
+	padding: 10px 0px;
+}
+
+#addBill
+{
+	width: 90px;
+	font-family: Microsoft YaHei;
+	color: #FFF;
+}
+
+.glyphicon-plus
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+p.errorInfo
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+div.table-responsive
+{
+	overflow: auto;
+}
+
+#billList div.tab-content
+{
+	margin-top: 8px;
+}
+
+#billList div.tab-content div.tab-pane table thead tr
+{
+	background-color: #E1F7EB;
+	height: 1em;
+}
+
+.table-hover > tbody > tr:hover > td
+{
+	background-color: #F0FFF9;
+	cursor: pointer;
+}
+
+.table-hover > tbody > tr:hover > th
+{
+	background-color: #FFF;
+}
+
+#preview
+{
+	height: 100%;
+	border-left: 1px solid #FFF;
+	padding: 8px 2em;
+	font-family: Microsoft YaHei;
+	overflow: auto;
+}
+
+.selected
+{
+	background-color: #00B24D;
+	color: #FFF;
+}
+
+.table-hover > tbody > tr.selected:hover > td
+{
+	background-color: #00B24D;
+	color: #FFF;
+	cursor: pointer;
+}
+
+#option
+{
+	height: 64px;
+	padding: 10px 0px;
+	/*margin-bottom: 20px;*/
+}
+
+.option_left
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.option_right
+{
+	float: right;
+	margin-left: 10px;
+}
+
+#preview_placeholder
+{
+	text-align: center;
+	margin-top: 3em;
+}
+
+legend
+{
+  margin-bottom: 10px;
+}
+
+#basic
+{
+	clear: both;
+	margin-top: 1em;
+	margin-bottom: 20px;
+}
+
+#brief
+{
+	width: 100%;
+	margin-top: 20px;
+}
+
+#history tr td:first-child
+{
+	width: 80px;
+	padding-right: 0.5em;
+	text-align: right;
+	font-weight: bold;
+	color: #333;
+}
+
+#history tr td:nth-child(2)
+{
+	width: 80px;
+	color: #666;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#history tr td:nth-child(3)
+{
+	width: 200px;
+	color: #666;
+}
+
+#brief th,
+#brief td,
+#detail th,
+#detail td
+{
+	border: 1px solid #999;
+}
+
+#brief th,
+#detail th
+{
+	text-align: center;
+}
+
+#brief tr td
+#detail tr td
+{
+	padding-left: 1em;
+}
+
+#brief tr td:nth-child(odd)
+{
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	width: 15%;
+}
+
+#brief tr td:nth-child(odd)
+{
+	width: 17%;
+}
+
+#brief tr td:nth-child(even)
+{
+	width: 33%;
+}
+
+#detail tr:first-child th:nth-child(2),
+#detail tr td:nth-child(2)
+{
+	width: 200px;
+}
+
+#detail tr:first-child th:first-child
+{
+	width: 50px;
+}
+
+#detail thead tr th, #detail tbody tr td
+{
+	vertical-align: middle;
+}
+
+#detail tbody tr td:first-child
+{
+	font-weight: bold;
+	text-align: right;
+	padding-right: 1em;
+}
+
+#detail tbody tr td:nth-child(2)
+{
+	font-weight: bold;
+}
+
+#shadow
+{
+	position: absolute;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 10;
+	padding: 0px;
+	margin: 0px;
+}
+
+#popup
+{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background-color: #DDD;
+	box-sizing: content-box;
+	border: 10px solid #EEE;
+	top: 200px;
+	text-align: center;
+	z-index: 20;
+}
+
+#dropzone
+{
+	width: 280px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: #EEE;
+	text-align: center;
+	line-height: 240px;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: Microsoft YaHei;
+	color: #999;
+	z-index: 30;
+}
+
+a.closePopup
+{
+	clear: both;
+	color: #999;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: Microsoft YaHei;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+	z-index: 30;
+	cursor: pointer;
+}

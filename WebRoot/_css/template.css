@@ -1,0 +1,210 @@
+/* CSS for template page */
+
+body
+{
+	padding: 50px 0px 5px;
+}
+
+td
+{
+	vertical-align: middle;
+}
+
+#companyName
+{
+	margin-left: 10px;
+	/*margin-right: 10px;*/
+	font-family: Microsoft YaHei;
+}
+
+#mainNav li a
+{
+	font-family: Microsoft YaHei;
+}
+
+#account
+{
+	margin-right: 1em;
+	font-family: Microsoft YaHei;
+}
+
+#exit
+{
+	cursor: pointer;
+}
+
+#mainContent
+{
+	margin: 0;
+}
+
+#templateList
+{
+	height: 100%;
+	border-right: 1px solid #CCC;
+	padding: 8px 2em;
+	font-family: Microsoft YaHei;
+	overflow: auto;
+}
+
+#toolbar
+{
+	padding: 10px 0px;
+}
+
+#addTemplate
+{
+	width: 90px;
+	font-family: Microsoft YaHei;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.glyphicon-plus
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+p.errorInfo
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+div.table-responsive
+{
+	overflow: auto;
+	margin-top: 8px;
+}
+
+#templates thead tr
+{
+	background-color: #E1F7EB;
+	height: 1em;
+}
+
+#templates tbody tr[status="-1"]
+{
+	background-color: #EEE;
+	color: #CCC;
+}
+
+#templates tbody tr:hover
+{
+	background-color: #F0FFF9;
+}
+
+#templates tbody tr.selected
+{
+	background-color: #00B24D;
+	color: #FFF;
+}
+
+#templates tbody tr.selected a
+{
+	color: #FFF;
+}
+
+#templates tbody tr.selected:hover td
+{
+	background-color: #00B24D;
+	color: #FFF;
+}
+
+#templates tbody tr.selected:hover a
+{
+	color: #FFF;
+}
+
+div.options_top
+{
+	height: 68px;
+	width: 100%;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+a.giveup
+{
+	float: left;
+}
+
+a.save
+{
+	float: right;
+}
+
+#preview
+{
+	height: 100%;
+	border-left: 1px solid #FFF;
+	padding: 30px 2em;
+	font-family: Microsoft YaHei;
+	overflow: auto;
+}
+
+#preview_placeholder
+{
+	text-align: center;
+	margin-top: 3em;
+}
+
+#preview a.remove, #preview a.add, #preview a.insertBefore
+{
+	cursor: pointer;
+}
+
+legend
+{
+  margin-bottom: 10px;
+}
+
+#detail th
+{
+	border: 1px solid #999;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #999;
+}
+
+#detail td
+{
+	padding-left: 1em;
+	vertical-align: middle;
+	border: 1px solid #999;
+}
+
+#detail tr td:first-child
+{
+	width: 50px;
+	text-align: right;
+	padding-right: 1em;
+}
+
+#newTemplate thead tr:nth-child(1)
+{
+	background-color: #EEE;
+}
+
+#newTemplate tr td:first-child
+{
+	width: 60px;
+	text-align: right;
+	padding-right: 1em;
+}
+
+#newTemplate tr td:last-child
+{
+	width: 140px;
+}
+
+#newTemplate input
+{
+	width: 100%;
+}
+
+a.insertBefore
+{
+	margin-left: 10px;
+}

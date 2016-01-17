@@ -1,0 +1,6 @@
+{
+"db_host":"jdbc:mysql://127.0.0.1:3306/",
+"db_name":"SettingBill",
+"db_username":"root",
+"db_password":"111111"
+}

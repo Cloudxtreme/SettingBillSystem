@@ -1,0 +1,85 @@
+.btn-default
+{
+    background-color: #FFF;
+    background-image: none;
+    filter: none;
+    -webkit-transition: background-color .25s ease-out;
+	   -moz-transition: background-color .25s ease-out;
+	    -ms-transition: background-color .25s ease-out;
+	     -o-transition: background-color .25s ease-out;
+	        transition: background-color .25s ease-out;
+}
+
+.btn-primary
+{
+	background-color: #00B24D;
+	background-image: none;
+	filter: none;
+	border: 1px solid #00B24D;
+	-webkit-transition: background-color .25s ease-out;
+	   -moz-transition: background-color .25s ease-out;
+	    -ms-transition: background-color .25s ease-out;
+	     -o-transition: background-color .25s ease-out;
+	        transition: background-color .25s ease-out;
+}
+
+.btn-primary:hover, .btn-primary:focus
+{
+	background-color: #00D42E;
+	background-image: none;
+	filter: none;
+	border: 1px solid #00D42E;
+}
+
+.btn-primary:active
+{
+	background-color: #009C43;
+	background-image: none;
+	filter: none;
+	border: 1px solid #009C43;
+}
+
+.btn-danger
+{
+	/*background-color: #00B24D;*/
+	background-image: none;
+	filter: none;
+	/*border: 1px solid #00B24D;*/
+	-webkit-transition: background-color .25s ease-out;
+	   -moz-transition: background-color .25s ease-out;
+	    -ms-transition: background-color .25s ease-out;
+	     -o-transition: background-color .25s ease-out;
+	        transition: background-color .25s ease-out;
+}
+
+.btn-danger:hover, .btn-danger:focus
+{
+	/*background-color: #00D42E;*/
+	background-image: none;
+	filter: none;
+	/*border: 1px solid #00D42E;*/
+}
+
+.btn-danger:active
+{
+	/*background-color: #009C43;*/
+	background-image: none;
+	filter: none;
+	/*border: 1px solid #009C43;*/
+}
+
+a
+{
+	color: #00B24D;
+}
+
+a:hover
+{
+	color: #00D42E;
+}
+
+.nav > li > a:hover
+{
+	color: #00D42E;
+	background-color: #E1F7EB;
+}

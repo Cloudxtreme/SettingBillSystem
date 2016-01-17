@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>SettingBillSystem</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.settingbill.servlet.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>com.settingbill.servlet.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoadBills</servlet-name>
+		<servlet-class>com.settingbill.servlet.LoadBills</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadBills</servlet-name>
+		<url-pattern>/LoadBills</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoadDetails</servlet-name>
+		<servlet-class>com.settingbill.servlet.LoadDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadDetails</servlet-name>
+		<url-pattern>/LoadDetails</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdateBillStatus</servlet-name>
+		<servlet-class>com.settingbill.servlet.UpdateBillStatus</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateBillStatus</servlet-name>
+		<url-pattern>/UpdateBillStatus</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoadDetailsForEdit</servlet-name>
+		<servlet-class>com.settingbill.servlet.LoadDetailsForEdit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadDetailsForEdit</servlet-name>
+		<url-pattern>/LoadDetailsForEdit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>QueryLocationTo</servlet-name>
+		<servlet-class>com.settingbill.servlet.QueryLocationTo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryLocationTo</servlet-name>
+		<url-pattern>/QueryLocationTo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>QueryTemplate</servlet-name>
+		<servlet-class>com.settingbill.servlet.QueryTemplate</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryTemplate</servlet-name>
+		<url-pattern>/QueryTemplate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>QueryBrief</servlet-name>
+		<servlet-class>com.settingbill.servlet.QueryBrief</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryBrief</servlet-name>
+		<url-pattern>/QueryBrief</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StoreBills</servlet-name>
+		<servlet-class>com.settingbill.servlet.StoreBills</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StoreBills</servlet-name>
+		<url-pattern>/StoreBills</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StoreNewBill</servlet-name>
+		<servlet-class>com.settingbill.servlet.StoreNewBill</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StoreNewBill</servlet-name>
+		<url-pattern>/StoreNewBill</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>QueryAuthority</servlet-name>
+		<servlet-class>com.settingbill.servlet.QueryAuthority</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryAuthority</servlet-name>
+		<url-pattern>/QueryAuthority</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoadTemplates</servlet-name>
+		<servlet-class>com.settingbill.servlet.LoadTemplates</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadTemplates</servlet-name>
+		<url-pattern>/LoadTemplates</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateTemplateStatus</servlet-name>
+		<servlet-class>com.settingbill.servlet.UpdateTemplateStatus</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateTemplateStatus</servlet-name>
+		<url-pattern>/UpdateTemplateStatus</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LoadTemplateDetails</servlet-name>
+		<servlet-class>com.settingbill.servlet.LoadTemplateDetails</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadTemplateDetails</servlet-name>
+		<url-pattern>/LoadTemplateDetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>StoreTemplates</servlet-name>
+		<servlet-class>com.settingbill.servlet.StoreTemplates</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StoreTemplates</servlet-name>
+		<url-pattern>/StoreTemplates</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ValidateTname</servlet-name>
+		<servlet-class>com.settingbill.servlet.ValidateTname</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ValidateTname</servlet-name>
+		<url-pattern>/ValidateTname</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

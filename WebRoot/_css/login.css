@@ -1,0 +1,93 @@
+/* CSS for login page */
+
+*
+{
+	font-family: Microsoft YaHei;
+}
+
+body
+{
+	background-color: #F6F6F6;
+}
+
+#loginForm
+{
+	width: 340px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	padding: 20px 20px;
+	background-color: #F6F6F6;
+}
+
+#loginForm h1
+{
+	font-size:2em;
+	text-align: center;
+	font-family: Microsoft YaHei;
+	color: #999;
+	margin: 0px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+#username, #password, #login_btn
+{
+	height: 3em;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: .5em;
+	outline: none;
+}
+
+#username, #password
+{
+	padding-left: 1em;
+	padding-right: 1em;
+	border: 2px solid #DDD;
+	color: #444;
+	font-family: Microsoft YaHei;
+	-webkit-transition: border .25s ease-in-out;
+	   -moz-transition: border .25s ease-in-out;
+	    -ms-transition: border .25s ease-in-out;
+	     -o-transition: border .25s ease-in-out;
+	        transition: border .25s ease-in-out;
+}
+
+#username:focus, #password:focus 
+{
+	border: 2px solid #2DB17F;
+}
+
+#username+.fui-user, #password+.fui-lock
+{
+	-webkit-transition: color .25s ease-in-out;
+	   -moz-transition: color .25s ease-in-out;
+	    -ms-transition: color .25s ease-in-out;
+	     -o-transition: color .25s ease-in-out;
+	        transition: color .25s ease-in-out;
+}
+
+#username:focus+.fui-user, #password:focus+.fui-lock
+{
+	color: #2DB17F;
+} 
+
+#login_btn
+{
+	color: #FDFFFE;
+}
+
+.login-form .login-field:focus + .login-field-icon 
+{
+	color: #009B43;
+	color: #2DB17F;
+}
+
+.alert
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
