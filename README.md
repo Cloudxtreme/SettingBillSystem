@@ -22,5 +22,6 @@ The project is born with responsive design. It works perfectly on PC and tablet.
     - mysql-connector-java-bin.jar 
     - fastjson.jar
 
+![Screenshot](https://github.com/tonghuashuo/SettingBillSystem/blob/master/screenshot/02-select.jpg)
 # Demo
 You can login with username/password: 1/111111.
