@@ -7,7 +7,7 @@ Setting Bill System for Electric Industry. A Graduation Design Work with Java We
 
 For demostrtion's convenience. All css, js files are not compressed so you can read the source code. (I AM AWARED that compression is necessary in product environment.) Some JavaScript code snippets remained in JSP file because they are too small. Not necessary for another HTTP request.
 
-The whole project is based on Ajax and RESTful API, making it a SPA (Single Page Application). Cut off a lot of network traffic, and speed up page response.
+The whole project is based on Ajax and backend API, making it a SPA (Single Page Application). Cut off a lot of network traffic, and speed up page response.
 
 There're some HTML5 features applied to this project. Such as File API, Drag & Drop. You can experience it by adding a new setting bill. Choose "import from file" and drag `project_folder/config/import.csv` into the browser.
 
